@@ -35,13 +35,13 @@ function App() {
   // Function of opening full information about the product
   const handleShowFullItem = (item) => {
     console.log("Full item:", item);
-    setCurrentItem(item); 
-    setShowFullItem(true); 
+    setCurrentItem(item);
+    setShowFullItem(true);
   };
   //Function of closing full information about the product
   const handleCloseFullItem = () => {
-    setShowFullItem(false); 
-    setCurrentItem(null); 
+    setShowFullItem(false);
+    setCurrentItem(null);
   };
 
   return (
