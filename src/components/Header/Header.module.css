@@ -1,0 +1,91 @@
+header{
+  position: relative;
+}
+header > div{
+  margin-bottom: 20px;
+}
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+header .presentation {
+  /* margin: 50px; */
+  background: url("./../../img/img1.jpeg") no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  color: #bcbcbc;
+  position: relative;
+  border-radius: 5px;
+}
+header .presentation::after {
+  content: "The best products for your home";
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+header .presentation::before {
+  content: "At low prices";
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+.shop_add {
+  float: right;
+  cursor: pointer;
+  transition: color, transform, 500ms ease;
+}
+.shop_add:hover {
+  color: #cbb5b5;
+}
+.shop_add.active {
+  color: #cbb5b5;
+  transform: scale(1.5);
+}
+.shop_cart{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  min-height: 100px;
+  background: #d3c5c5;
+  z-index: 50;
+  box-shadow: 10px 15px 42px 3px rgba(0,0,0,0.75);
+  border-radius: 5px;
+
+
+}
+.shop_cart p{
+  padding: 10px;
+}
+.shop_cart_list{
+  list-style: none;
+  padding: 5px;
+}
+.summa{
+  padding: 10px;
+}
