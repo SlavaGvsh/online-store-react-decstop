@@ -1,9 +1,9 @@
 {
+  "homepage": "https://SlavaGvsh.github.io/online-store-react-decstop",
   "name": "ecommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SlavaGvsh.github.io/monline-store-react-decstop",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
