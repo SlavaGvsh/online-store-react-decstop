@@ -7,6 +7,8 @@ import ShowFullItem from "./components/ShowFullItem/ShowFullItem.jsx";
 import Categories from "./components/Categories/Categories.jsx";
 import "./App.css";
 
+
+
 function App() {
   const [cartItems, setCartItems] = useState([]);
   const [categories, setCategories] = useState("all");

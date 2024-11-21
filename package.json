@@ -1,6 +1,6 @@
 {
   "homepage": "https://SlavaGvsh.github.io/online-store-react-decstop",
-  "name": "ecommerce",
+  "name": "online-store-react-decstop",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
